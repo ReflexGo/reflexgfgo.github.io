@@ -1,0 +1,42 @@
+h1 {
+    color: blue; 
+    font-size: 30px;
+    font-style: italic;
+    background-color: bisque
+}
+.menu {
+    list-style-type: none;
+    /*Растояние от начала поля*/
+    margin-left: 0;
+    padding-left: 0;
+    
+}
+.menu a {
+    background-color: lavender;
+    /*Сделать навигацию по горизонтали*/
+    display: inline-block;
+    border-top: solid blue;
+    /*Внерненние отступы (ширина,высота)*/
+    padding: 10px 135px;
+    /*Шрифт*/
+    font-family: sans-serif;
+    /*Подчкеркивание снизу*/
+    border-bottom: 5px solid #5757a0
+    
+}
+.menu li {
+    display: inline;
+    /*Промежутки между ссылками*/
+    margin-right: -3px
+}
+.table {
+    /*Убираем промижутки между ячейками*/
+    border-collapse: collapse;
+    
+    background-color: aqua;
+
+}
+body {
+    background-image: url(https://img3.akspic.ru/image/21546-prostranstvo-art-gory-kosmos-grafika-1680x1050.jpg)
+}
+    
